@@ -2755,7 +2755,7 @@ input, select, textarea {
     left: -50%;
     display: flex;
     position: relative;
-    transform: translate(54%);
+    transform: translate(54%) !important;
 }
 
 #award-box .award-content:before {
