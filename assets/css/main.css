@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #888 !important;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -107,12 +107,12 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #888 !important;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: #666 !important !important;
 		line-height: 1.5em;
 	}
 
@@ -131,11 +131,11 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
+			color: #888 !important;
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #666 !important !important;
 			}
 
 	h3 {
@@ -156,7 +156,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: #666 !important;
 	}
 
 	em, i {
@@ -2136,7 +2136,7 @@ input, select, textarea {
 	}
 
 		#nav ul li {
-			padding-left: 0;
+			padding-left: 0 !important;
 		}
 
 			#nav ul li a {
@@ -2156,7 +2156,7 @@ input, select, textarea {
 				#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+					font-size: 1em;
 				}
 
 					#nav ul li a span:before {
@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 					#nav ul li a.active span:before {
 						color: #0061a8;
-						top: 5px;
+						top: -1px;
 					}
 
 /* Footer */
@@ -2311,7 +2311,7 @@ input, select, textarea {
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				padding: 10em 0;
 			}
 
 	}
@@ -2870,3 +2870,6 @@ input, select, textarea {
         left: -14%;
     }
 }
+
+
+
