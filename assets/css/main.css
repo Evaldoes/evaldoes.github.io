@@ -51,6 +51,17 @@ table {
 	border-spacing: 0;
 }
 
+.myprogress{
+
+	display: -ms-flexbox;
+	display: flex;
+	height: 5px;
+	overflow: hidden;
+	font-size: .75rem;
+	background-color: #e9ecef;
+	border-radius: .25rem;
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
