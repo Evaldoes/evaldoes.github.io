@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "evaldoes"
+    }
+  },
+  "defaultProject": "evaldoes",
+  "cli": {
+    "analytics": "775c8383-d4c7-4129-84aa-018195c2a30c"
+  }
 }
