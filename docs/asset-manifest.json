@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.270806f8.css",
+    "main.js": "/static/js/main.979a13bb.js",
+    "index.html": "/index.html",
+    "static/media/icon-diamante.svg": "/static/media/icon-diamante.d74937a0c7611cb7800a8f3403370b71.svg",
+    "main.270806f8.css.map": "/static/css/main.270806f8.css.map",
+    "main.979a13bb.js.map": "/static/js/main.979a13bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.270806f8.css",
+    "static/js/main.979a13bb.js"
+  ]
+}
